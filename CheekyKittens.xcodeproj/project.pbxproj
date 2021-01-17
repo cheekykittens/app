@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEC331EC25B4E7B10073CBD1 /* macOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC331EB25B4E7B10073CBD1 /* macOSApp.swift */; };
-		CEC331EE25B4E7B10073CBD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC331ED25B4E7B10073CBD1 /* ContentView.swift */; };
+		CEC331EC25B4E7B10073CBD1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC331EB25B4E7B10073CBD1 /* App.swift */; };
 		CEC331F025B4E7B20073CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */; };
 		CEC3320125B4E8380073CBD1 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3320025B4E8380073CBD1 /* iOSApp.swift */; };
 		CEC3320325B4E8380073CBD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3320225B4E8380073CBD1 /* ContentView.swift */; };
 		CEC3320525B4E8390073CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC3320425B4E8390073CBD1 /* Assets.xcassets */; };
+		CEC3321825B4EB890073CBD1 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3321725B4EB890073CBD1 /* Window.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEC331E825B4E7B10073CBD1 /* CheekyKittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheekyKittens.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC331EB25B4E7B10073CBD1 /* macOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSApp.swift; sourceTree = "<group>"; };
-		CEC331ED25B4E7B10073CBD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEC331EB25B4E7B10073CBD1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC331F425B4E7B20073CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC331F525B4E7B20073CBD1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -27,6 +26,7 @@
 		CEC3320225B4E8380073CBD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEC3320425B4E8390073CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC3320925B4E8390073CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC3321725B4EB890073CBD1 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +68,11 @@
 		CEC331EA25B4E7B10073CBD1 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC331EB25B4E7B10073CBD1 /* macOSApp.swift */,
-				CEC331ED25B4E7B10073CBD1 /* ContentView.swift */,
-				CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */,
-				CEC331F425B4E7B20073CBD1 /* Info.plist */,
 				CEC331F525B4E7B20073CBD1 /* macOS.entitlements */,
+				CEC331F425B4E7B20073CBD1 /* Info.plist */,
+				CEC331EB25B4E7B10073CBD1 /* App.swift */,
+				CEC3321725B4EB890073CBD1 /* Window.swift */,
+				CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC331EE25B4E7B10073CBD1 /* ContentView.swift in Sources */,
-				CEC331EC25B4E7B10073CBD1 /* macOSApp.swift in Sources */,
+				CEC331EC25B4E7B10073CBD1 /* App.swift in Sources */,
+				CEC3321825B4EB890073CBD1 /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
