@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CEC331E725B4E7B10073CBD1"
-               BuildableName = "macOS.app"
+               BuildableName = "Cheeky Kittens.app"
                BlueprintName = "macOS"
                ReferencedContainer = "container:CheekyKittens.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEC331E725B4E7B10073CBD1"
-            BuildableName = "macOS.app"
+            BuildableName = "Cheeky Kittens.app"
             BlueprintName = "macOS"
             ReferencedContainer = "container:CheekyKittens.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CEC331E725B4E7B10073CBD1"
-            BuildableName = "macOS.app"
+            BuildableName = "Cheeky Kittens.app"
             BlueprintName = "macOS"
             ReferencedContainer = "container:CheekyKittens.xcodeproj">
          </BuildableReference>

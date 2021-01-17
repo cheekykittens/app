@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEB0C75925B4EFCD0010DD2E /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C75825B4EFCD0010DD2E /* Text.swift */; };
+		CEB0C75D25B4EFF10010DD2E /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C75C25B4EFF10010DD2E /* Control.swift */; };
+		CEB0C76325B4F0100010DD2E /* Control.State.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C76225B4F0100010DD2E /* Control.State.swift */; };
+		CEB0C76725B4F0380010DD2E /* Control.Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C76625B4F0380010DD2E /* Control.Title.swift */; };
+		CEB0C76F25B4F1340010DD2E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C76E25B4F1340010DD2E /* Game.swift */; };
+		CEB0C77525B4F1AA0010DD2E /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C77425B4F1AA0010DD2E /* Launch.swift */; };
 		CEC331EC25B4E7B10073CBD1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC331EB25B4E7B10073CBD1 /* App.swift */; };
 		CEC331F025B4E7B20073CBD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */; };
 		CEC3320125B4E8380073CBD1 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3320025B4E8380073CBD1 /* iOSApp.swift */; };
@@ -16,12 +22,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CEC331E825B4E7B10073CBD1 /* CheekyKittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheekyKittens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0C75825B4EFCD0010DD2E /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		CEB0C75C25B4EFF10010DD2E /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		CEB0C76225B4F0100010DD2E /* Control.State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.State.swift; sourceTree = "<group>"; };
+		CEB0C76625B4F0380010DD2E /* Control.Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.Title.swift; sourceTree = "<group>"; };
+		CEB0C76E25B4F1340010DD2E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		CEB0C77425B4F1AA0010DD2E /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		CEC331E825B4E7B10073CBD1 /* CheekyKittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CheekyKittens.app; path = "Cheeky Kittens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC331EB25B4E7B10073CBD1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC331F425B4E7B20073CBD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC331F525B4E7B20073CBD1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		CEC331FE25B4E8380073CBD1 /* CheekyKittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheekyKittens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC331FE25B4E8380073CBD1 /* CheekyKittens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CheekyKittens.app; path = "Cheeky Kittens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC3320025B4E8380073CBD1 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
 		CEC3320225B4E8380073CBD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEC3320425B4E8390073CBD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +83,12 @@
 				CEC331F525B4E7B20073CBD1 /* macOS.entitlements */,
 				CEC331F425B4E7B20073CBD1 /* Info.plist */,
 				CEC331EB25B4E7B10073CBD1 /* App.swift */,
+				CEB0C76225B4F0100010DD2E /* Control.State.swift */,
+				CEB0C75C25B4EFF10010DD2E /* Control.swift */,
+				CEB0C76625B4F0380010DD2E /* Control.Title.swift */,
+				CEB0C76E25B4F1340010DD2E /* Game.swift */,
+				CEB0C77425B4F1AA0010DD2E /* Launch.swift */,
+				CEB0C75825B4EFCD0010DD2E /* Text.swift */,
 				CEC3321725B4EB890073CBD1 /* Window.swift */,
 				CEC331EF25B4E7B20073CBD1 /* Assets.xcassets */,
 			);
@@ -186,6 +204,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC331EC25B4E7B10073CBD1 /* App.swift in Sources */,
+				CEB0C75D25B4EFF10010DD2E /* Control.swift in Sources */,
+				CEB0C77525B4F1AA0010DD2E /* Launch.swift in Sources */,
+				CEB0C76F25B4F1340010DD2E /* Game.swift in Sources */,
+				CEB0C75925B4EFCD0010DD2E /* Text.swift in Sources */,
+				CEB0C76725B4F0380010DD2E /* Control.Title.swift in Sources */,
+				CEB0C76325B4F0100010DD2E /* Control.State.swift in Sources */,
 				CEC3321825B4EB890073CBD1 /* Window.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

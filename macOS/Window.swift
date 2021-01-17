@@ -11,5 +11,21 @@ final class Window: NSWindow {
         isReleasedWhenClosed = false
         center()
         setFrameAutosaveName("Window")
+        
+        add(Launch(window: self))
+    }
+    
+    func newGame() {
+        add(Game())
+    }
+    
+    private func add(_ view: NSView) {
+        contentView!.subviews.forEach { $0.removeFromSuperview() }
+        contentView!.addSubview(view)
+        
+        view.topAnchor.constraint(equalTo: contentView!.safeAreaLayoutGuide.topAnchor).isActive = true
+        view.bottomAnchor.constraint(equalTo: contentView!.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        view.leftAnchor.constraint(equalTo: contentView!.safeAreaLayoutGuide.leftAnchor).isActive = true
+        view.rightAnchor.constraint(equalTo: contentView!.safeAreaLayoutGuide.rightAnchor).isActive = true
     }
 }
