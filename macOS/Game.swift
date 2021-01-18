@@ -11,7 +11,7 @@ final class Game: SKView, SKViewDelegate {
         let scene = SKScene()
         scene.anchorPoint = .init(x: 0.5, y: 0.5)
         scene.scaleMode = .resizeFill
-//        scene.backgroundColor = NSColor(named: "Background")!
+        scene.backgroundColor = NSColor(named: "BackgroundPurple")!
         presentScene(scene)
     }
     
