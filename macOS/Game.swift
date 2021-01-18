@@ -13,6 +13,12 @@ final class Game: SKView, SKViewDelegate {
         scene.scaleMode = .resizeFill
         scene.backgroundColor = NSColor(named: "BackgroundPurple")!
         presentScene(scene)
+        
+        let square1 = SKSpriteNode(imageNamed: "squarePurple")
+        let square2 = SKSpriteNode(imageNamed: "squarePurple")
+        square2.position.x += 70
+        scene.addChild(square1)
+        scene.addChild(square2)
     }
     
     func view(_: SKView, shouldRenderAtTime: TimeInterval) -> Bool {
