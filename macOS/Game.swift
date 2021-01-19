@@ -1,10 +1,10 @@
 import SpriteKit
 
 final class Game: SKView, SKViewDelegate {
-    private let area: Area
+    private let area: Theme
     
     required init?(coder: NSCoder) { nil }
-    init(area: Area) {
+    init(area: Theme) {
         self.area = area
         super.init(frame: .zero)
         translatesAutoresizingMaskIntoConstraints = false

@@ -1,6 +1,6 @@
 import Foundation
 
-public enum Area: String, Codable {
+public enum Theme: String, Codable {
     case
     purple
     
