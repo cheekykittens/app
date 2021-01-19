@@ -16,7 +16,7 @@ final class Window: NSWindow {
     }
     
     func newGame() {
-        add(Game())
+        add(Game(area: .purple))
     }
     
     private func add(_ view: NSView) {
